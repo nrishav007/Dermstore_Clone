@@ -1,0 +1,185 @@
+#navbar{
+    width:100%;
+    height: 80px;
+    background-color: white;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    margin-top: -16px;
+    z-index: 3;
+    
+
+}
+
+#container{
+    width:45%;
+    height: 1600px;
+    border: 0px solid;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    padding:18px;
+    /* z-index: 1;
+    position:static; */
+    
+    
+
+
+}
+#exist{
+    width:30%;
+    height: 600px;
+    border: 0px solid;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding:18px;
+    /* z-index: 1;
+    position:static; */
+    }
+    #new_customer{
+        width:30%;
+        height: 200px;
+        border: 0px solid;
+        background-color: white;
+        margin: auto;
+        margin-top: 40px;
+        margin-right:200px;
+        padding:18px;
+    }
+
+    #container1{
+       display: flex;
+       justify-content: center;
+       height: 600px;
+       width:100%
+    }
+
+
+
+input{
+    width:95%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+body{
+    background-color:#F2F2F2
+}
+#about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+#about1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#facebook {
+    display: flex;
+    justify-content: center;
+    width:45%;
+    height: 45px;
+    border:1px solid;
+    padding: 5px;
+}
+
+#google{
+    display: flex;
+    justify-content: center;
+    width:45%;
+    height: 45px;
+    border:1px solid;
+    text-align: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+#social{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    
+    }
+    #social img{
+        margin-top: 18px;
+    }
+
+    hr{
+        margin-top: 40px;
+    }
+
+    #pass{
+        display:flex;
+        border: 1px solid;
+        margin-top: 20px;
+        height: 40px;
+        margin-bottom: 40px;
+        width:95%
+    
+
+    }
+    #pass input{
+        border:1px solid
+    }
+
+    #btn{
+        border:none;
+        color:gray;
+        font-size: medium;
+    }
+
+    #ref{
+        border:0px solid;
+        background-color:#F0F0F0;
+        padding: 20px;
+
+    }
+
+    #loyal{
+        margin-top: -10px;
+        display: flex;
+        justify-content: space-around;
+        height:60px;
+        text-align: center;
+        border:0px solid;
+        padding: 2px;
+        
+        }
+        #loyal p{
+            margin-top: 30px;
+            margin-left: 0px;
+            margin-right: 10px;
+
+        }
+
+        #button1{
+            width: 100%;
+            height: 50px;
+            align-items: center;
+            background-color: black;
+            color:white;
+            margin-top: 20px;
+        }
+
+       
+
+        #navbar img{
+            width: 180px;
+            margin-left: 10px;
+            margin-top: 10px;
+            
+        }
+         
+        .p{
+            margin-top:60px
+        }
+
+
+
+
+
+
