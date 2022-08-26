@@ -1,0 +1,118 @@
+#yourcart{
+    display: flex;
+    justify-content: space-around;
+}
+#yourcart>button{
+    background-color: rgb(86, 83, 83);
+    color: azure;
+    margin-top: 20px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+#yourcart>button:hover{
+    background-color: rgb(163, 153, 153);
+}
+#yourcart1>div{
+    display: flex;
+}
+#yourcart1>div:nth-child(1){
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background-color: rgba(130, 180, 244, 0.751);
+}
+#calculate{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#total{
+    display: flex;
+    justify-content: space-around;
+}
+#btn2{
+    background-color: rgb(86, 83, 83);
+    color: azure;
+    margin-top: 20px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+#btn1{
+ border:3px solid black;
+    color: black;
+    margin-top: 20px;
+    height: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+#btn2:hover{
+    background-color: rgb(163, 153, 153);
+}
+#showdata>div>div{
+    display: flex;
+}
+#showdata>div>div>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+#showdata>div>p{
+    margin-left:280px;
+}
+#showdata>div>div>h3{
+    margin-left:10px;
+    margin-right: 10px;
+}
+#showdata>div>div>button:nth-child(1){
+    margin-left:310px;
+    height: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: antiquewhite;
+}
+#showdata>div>div>button:nth-child(1):hover{
+    background-color:black;
+    color: aliceblue;
+}
+
+#showdata>div>div>h3+button{
+    height: 20px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    border: none;
+    
+}
+#showdata>div>div>h3+button:hover{
+    background-color:black;
+    color: aliceblue;
+}
+#showdata>div>h2{
+    margin-left: 360px;
+}
+
+#showdata>div{
+    display: flex;
+    width: 75%;
+    margin-top: 50px;   
+}
+#showdata>div>button{
+    margin-left:100px;
+    height: 20px;
+    background-color: gray;
+    border: none;
+}
+#showdata>div>button:hover{
+    background-color: white;
+}
+
+#totalamount>div{
+    display: flex;
+}
