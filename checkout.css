@@ -1,0 +1,50 @@
+form{
+   width: 50%;
+   line-height: 50px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   align-items: center;
+   margin:auto;
+   padding-bottom:100px;
+   padding-left:50px;
+   padding-right:50px;
+   padding-top:50px;
+   background-color: yellowgreen;
+}
+
+form h1{
+    text-align: center;
+}
+#io{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#io input{
+    width: 30%;
+    height: 30px;
+    text-align: center;
+}
+#io button{
+    padding: 10px;
+}
+#io button:hover{
+    color: green;
+}
+input[type="text"], [type="email"],[type="number"]{
+    width: 98%;
+    height: 30px;
+    border-radius: 10px;
+    text-indent: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input[type="submit"]{
+    margin-top: 50px;
+    width: 98%;
+    height: 50px;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(163, 153, 153);
+}
