@@ -3,16 +3,630 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/777c85ebe0.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dermstore</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
      <link rel="stylesheet" href="homepage.css">
-     <script src="https://kit.fontawesome.com/777c85ebe0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="importer-container"></div>
+    <div id="navbar1">
+        <div>
+            <a href=''>
+                <img src="https://static.thcdn.com/www/common/images/flags/1x1/us-853f40a4f4.svg"  >
+                us-USA</a>
+        </div>
+    </div>
+    <div id="navbar2">
+        <div>
+            <div>
+                <a href="./home.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="259" height="64" viewBox="0 0 259 64">
+                        <g fill="none" fill-rule="evenodd">
+                            <g fill="#222" fill-rule="nonzero">
+
+                                <path
+                                    d="M54.998 9.03C48.853 3.01 40.261 0 29.286 0H0v63.15h29.098c10.724 0 19.253-3.01 25.587-9.092 6.206-5.796 9.65-13.961 9.47-22.451.273-8.481-3.053-16.682-9.157-22.576zm-24.27 41.955c-7.057-.011-13.572-3.787-17.091-9.905-3.52-6.117-3.507-13.647.031-19.754 3.539-6.106 10.066-9.86 17.124-9.85 10.91.018 19.74 8.876 19.722 19.786-.017 10.91-8.875 19.74-19.785 19.723zm59.264-29.036h7.337c6.083 0 9.783 3.763 9.783 9.595 0 5.832-3.7 9.595-9.783 9.595h-7.337v-19.19zm7.086 14.863c3.198 0 5.017-2.007 5.017-5.268 0-3.26-1.819-5.268-5.017-5.268h-2.07v10.536h2.07zm26.903-14.863v4.327h-8.905v3.01h8.153v4.202h-8.153v3.324h8.905v4.327H110.06v-19.19h13.922zm8.341 12.856v6.334h-5.017v-19.19h8.717c4.202 0 7.086 2.32 7.086 6.522 0 2.885-1.505 4.892-3.888 5.77l4.578 6.898h-5.644l-4.076-6.334h-1.756zm0-4.013h3.136c1.818 0 2.634-.878 2.634-2.32 0-1.38-.816-2.321-2.634-2.321h-3.136v4.64zm22.702 10.347l-4.077-11.414V41.14h-4.766v-19.19h6.209l4.264 11.978 4.265-11.978h6.145v19.253h-4.766V29.725l-4.013 11.414h-3.261zm20.005-5.644c.439 1.317 1.568 1.944 3.135 1.944 1.568 0 2.634-.627 2.634-1.819 0-.878-.627-1.317-1.818-1.567l-3.763-.753c-2.822-.627-5.017-2.07-5.017-5.33 0-3.763 3.136-6.209 7.463-6.209 4.766 0 7.462 2.571 7.964 5.895h-4.954c-.44-1.066-1.317-1.881-2.948-1.881-1.442 0-2.445.627-2.445 1.693 0 .815.627 1.317 1.63 1.505l3.826.878c3.323.752 5.142 2.571 5.142 5.518 0 3.951-3.324 6.209-7.588 6.209-4.64 0-7.84-2.195-8.529-6.02h5.268v-.063zm11.852-13.546h17.058v4.327h-6.02v14.926h-5.08V26.276h-5.958V21.95zm27.092 19.504c-5.581 0-9.47-4.202-9.47-9.909 0-5.77 3.889-9.908 9.47-9.908 5.644 0 9.532 4.139 9.532 9.908 0 5.77-3.888 9.909-9.532 9.909zm0-15.428c-2.634 0-4.327 2.195-4.327 5.52 0 3.323 1.693 5.518 4.327 5.518s4.39-2.195 4.39-5.519c0-3.324-1.756-5.519-4.39-5.519zm16.681 8.78v6.334h-5.017v-19.19h8.717c4.202 0 7.087 2.32 7.087 6.522 0 2.885-1.505 4.892-3.888 5.77l4.578 6.898h-5.645l-4.076-6.334h-1.756zm0-4.013h3.136c1.818 0 2.634-.878 2.634-2.32 0-1.38-.816-2.321-2.634-2.321h-3.136v4.64zm27.782-8.843v4.327h-8.905v3.01h8.152v4.202h-8.152v3.324h8.905v4.327h-13.86v-19.19h13.86z"
+                                    transform="translate(-890 -121) translate(890 121)"></path>
+                    </svg></a>
+            </div>
+            <div>
+                <form>
+                    <input type="text" placeholder="Search for a product or a brand" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+
+                </form>
+            </div>
+            <div>
+                <a href="#" style="color:black; text-decoration: none"><i class="fa fa-fw fa-user"></i> <div class="dropdown">
+                    <button class="dropbtn">Account</button>
+                    <div class="dropdown-content" style="width:300px ; height:auto ; line-height: 30px;justify-content: center;">
+                        <a href="#" id="showusername"></a>
+                        <a href="#" style="width: 83%; height:20px ;text-align: center; align-items: center;background-color: black;" id="loginlogout"><b style="color: aliceblue; " >Login</b></a>
+                        
+                        <a href="register.html"  style="width: 83%; height:20px ;text-align: center; align-items: center; background-color: rgb(236, 234, 234);border:solid black;margin-top: 5px;" id="register"><b style="color: black; ">Rigester</a>
+                        
+                        <a href="#">My Favorite</a>
+                        <a href="#">Your Order</a>
+                        <a href="#">Auto-Replenishments</a> 
+                        <a href="#">Your Refer</a>
+                    </div>
+                </div></a>
+            </div>
+            <div>
+                <a href="#" style='font-size:25px; color:black; text-decoration: none;'><i class='fas fa-shopping-cart'
+                        style='font-size:26px'></i>Cart</a>
+            </div>
+        </div>
+        <div id="bar">
+            <a href="#">
+                <div class="dropdown">
+                    <button class="dropbtn">Brand</button>
+                    <div class="dropdown-content3">
+                      <div> <hr>
+                        <a href="#"></a>
+                    </div>
+                    <div>  
+                        <hr > 
+                        <a href="#"><h3 style="color: black;">A</h3> </a> 
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">B</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">C</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">D</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">E</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">F</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">G</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">H</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">I</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">J</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">K</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">L</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">M</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">N</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">O</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">P</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">Q</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">R</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">S</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">T</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">U</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">V</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">W</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">X</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">Y</h3> </a>
+                        <hr>
+                    </div>
+                    <div>  
+                        <hr> 
+                        <a href="#"><h3 style="color: black;">Z</h3> </a>
+                        <hr>
+                    </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">SummerShop</button>
+                    <div class="dropdown-content">
+                        <hr>
+                        <a href="#" ><b style="color:black ;">View all</b></a>
+                        <a href="#">SPF</a>
+                        <a href="#">Travel Size</a>
+                        <a href="#">Skin Care</a>
+                        <a href="#"> Makeup</a> 
+                        <a href="#">Hair Care</a>
+                    </div>
+                </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">BrowseBy</button>
+                        <div class="dropdown-content1">
+                          <div> 
+                            <hr style="margin-left:10px ;"> 
+                            <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                            <a href="#">SkinCeuticals</a>
+                            <a href="#"> EltaMD</a>
+                            <a href="#">SkinMedica</a>
+                            <a href="#"> Obagi</a>
+                            <a href="#">iSClinical</a>
+                            <a href="#">EminenceOrganicSkinCare</a>
+                            <a href="#">RevisionSkincare</a>
+                            <a href="#">Neocutis</a>
+                            <a href="#">Oribe</a>
+                            <a href="#">Sunday Riley</a>
+                        </div>
+                        <div>  
+                            <hr style="margin-left:10px ;"> 
+                            <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                            <a href="#">SkinCeuticals</a>
+                            <a href="#"> EltaMD</a>
+                            <a href="#">SkinMedica</a>
+                            <a href="#"> Obagi</a>
+                            <a href="#">iSClinical</a>
+                            <a href="#">EminenceOrganicSkinCare</a>
+                            <a href="#">RevisionSkincare</a>
+                            <a href="#">Neocutis</a>
+                            <a href="#">Oribe</a>
+                            <a href="#">Sunday Riley</a>
+                        </div>
+                        <div>  
+                            <hr style="margin-left:10px ;"> 
+                            <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                            <a href="#">SkinCeuticals</a>
+                            <a href="#"> EltaMD</a>
+                            <a href="#">SkinMedica</a>
+                            <a href="#"> Obagi</a>
+                            <a href="#">iSClinical</a>
+                            <a href="#">EminenceOrganicSkinCare</a>
+                            <a href="#">RevisionSkincare</a>
+                            <a href="#">Neocutis</a>
+                            <a href="#">Oribe</a>
+                            <a href="#">Sunday Riley</a>
+                        </div>
+                        <div> 
+                            <hr style="margin-left:10px ;"> 
+                            <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                            <a href="#">SkinCeuticals</a>
+                            <a href="#"> EltaMD</a>
+                            <a href="#">SkinMedica</a>
+                            <a href="#"> Obagi</a>
+                            <a href="#">iSClinical</a>
+                            <a href="#">EminenceOrganicSkinCare</a>
+                            <a href="#">RevisionSkincare</a>
+                            <a href="#">Neocutis</a>
+                            <a href="#">Oribe</a>
+                            <a href="#">Sunday Riley</a>
+                        </div>
+                        <div> 
+                            <hr style="margin-left:10px ;"> 
+                            <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                            <a href="#">SkinCeuticals</a>
+                            <a href="#"> EltaMD</a>
+                            <a href="#">SkinMedica</a>
+                            <a href="#"> Obagi</a>
+                            <a href="#">iSClinical</a>
+                            <a href="#">EminenceOrganicSkinCare</a>
+                            <a href="#">RevisionSkincare</a>
+                            <a href="#">Neocutis</a>
+                            <a href="#">Oribe</a>
+                            <a href="#">Sunday Riley</a>
+                        </div>
+                       
+                        </div>
+                    </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Bestsellers</button>
+                            <div class="dropdown-content">
+                               
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">SkinCare</button>
+                            <div class="dropdown-content1">
+                              <div> 
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div> 
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            
+                           
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Makeup</button>
+                            <div class="dropdown-content1">
+                              <div> 
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div> 
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            
+                           
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">HairCare</button>
+                            <div class="dropdown-content1">
+                              <div> 
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                        
+                         
+                            
+                           
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Bath&Body</button>
+                            <div class="dropdown-content1">
+                              <div> 
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">Brand</h3> </a>
+                                <a href="#">SkinCeuticals</a>
+                                <a href="#"> EltaMD</a>
+                                <a href="#">SkinMedica</a>
+                                <a href="#"> Obagi</a>
+                                <a href="#">iSClinical</a>
+                                <a href="#">EminenceOrganicSkinCare</a>
+                                <a href="#">RevisionSkincare</a>
+                                <a href="#">Neocutis</a>
+                                <a href="#">Oribe</a>
+                                <a href="#">Sunday Riley</a>
+                            </div>
+                          
+                            
+                           
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Tools&Devices</button>
+                            <div class="dropdown-content1">
+                              <div> 
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">SkinCareTools</h3> </a>
+                               
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">HairCareTools</h3> </a>
+                                
+                            </div>
+                            <div>  
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">MakeupTools</h3> </a>
+                               
+                            </div>
+                          
+                            
+                           
+                            </div>
+                        </div>
+                                           
+                        <div class="dropdown">
+                            <button class="dropbtn">GIfts&Sets</button>
+                            <div class="dropdown-content">
+                                <hr>
+                                <a href="#" ><b style="color:black ;">View all</b></a>
+                                <a href="#">SPF</a>
+                                <a href="#">Travel Size</a>
+                                <a href="#">Skin Care</a>
+                                <a href="#"> Makeup</a> 
+                                <a href="#">Hair Care</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">BeautyFIX</button>
+                            <div class="dropdown-content1">
+                              <div> 
+                                <hr style="margin-left:10px ;"> 
+                                <a href="#"><h3 style="color: black;">SkinCareTools</h3> </a>
+                               
+                            </div> 
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn"></button>
+                            <div class="dropdown-content">
+                                <hr>
+                                <a href="#" ><b style="color:black ;">View all</b></a>
+                                <a href="#">SPF</a>
+                                <a href="#">Travel Size</a>
+                                <a href="#">Skin Care</a>
+                                <a href="#"> Makeup</a> 
+                                <a href="#">Hair Care</a>
+                            </div>
+                        </div>
+                                                            <div class="dropdown">
+                                                                <button class="dropbtn">NewArrivals</button>
+                                                                <div class="dropdown-content">
+                                                                    <hr>
+                                                                    <a href="#" ><b style="color:black ;">View all</b></a>
+                                                                    <a href="#">SPF</a>
+                                                                    <a href="#">Travel Size</a>
+                                                                    <a href="#">Skin Care</a>
+                                                                    <a href="#"> Makeup</a> 
+                                                                    <a href="#">Hair Care</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dropdown">
+                                                                <button class="dropbtn">Skin101</button>
+                                                                <div class="dropdown-content2">
+                                                                  <div> 
+                                                                    <a href="#">
+                                                                        <img src="https://static.thcdn.com/navigation/208/2021/05/original-blog-3-20210523-20210525.jpg" alt="placeholder" >
+                                                                        <h3 style="color: black;font-size: 15px;line-height: 15px;">Answer To Your SkinCare Questions</h3>
+                                                                    </a>
+                                                                    
+                                                                </div>
+                                                                <div>  
+                                                                    <a href="#">
+                                                                        <img src="https://static.thcdn.com/navigation/208/2021/05/original-blog-2-20210523-20210525.jpg" alt="placeholder" >
+                                                                        <h3 style="color: black;font-size: 15px;line-height: 15px;">Become Skin Expert</h3>
+                                                                    </a>
+                                                                    
+                                                                </div>
+                                                                <div>  
+                                                                    
+                                                                    
+                                                                    <a href="#">
+                                                                        <img src="https://static.thcdn.com/navigation/208/2021/05/original-blog-3-20210523-20210525.jpg" alt="placeholder" >
+                                                                        <h3 style="color: black;font-size: 15px;line-height: 15px;">How tos&mor</h3>
+                                                                    </a>
+                                                                    
+                                                                </div>
+                                                              
+                                                                
+                                                               
+                                                                </div>
+                                                            </div>
+                                                                    
+            </a>
+        </div>
+    </div>
+    <!-- <div id="importer-container"></div> -->
     <div id="one">
       <h4 id="onehead">The celebration's not over yet: Rewards member get a 0.30 oz.SkinMedica Lytera 2.0 Pigment Correcting Serum, a
         $36 value,FREE with any purchase.</h4>
@@ -44,6 +658,7 @@
 <!-- Sliding Images Ends Here -->
 
 
+
 <h2 id="two">Save with these SkinCeuticals Value Bundles</h2>
 <p id="twop">Enjoy savings on formulas that work together to help you achieve your skin goals.</p>
 
@@ -57,7 +672,7 @@
             <button class="pre-btn1"><img src="images/a.png" alt=""></button>
             <button class="nxt-btn1"><img src="images/a.png" alt=""></button>
             <div class="product1-container">
-                <div id="p1" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         
                         <img src="images/c11.png" class="product1-thumb" alt="">
@@ -69,7 +684,7 @@
                         <div class="buy" ><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p2" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                       
                         <img src="images/c12.png" class="product1-thumb" alt="">
@@ -81,7 +696,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p3" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                    
                         <img src="images/c13.png" class="product1-thumb" alt="">
@@ -95,7 +710,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p4" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                     
                         <img src="images/c14.png" class="product1-thumb" alt="">
@@ -107,7 +722,7 @@
                         <div class="buy" ><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p5" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                       
                         <img src="images/c15.png" class="product1-thumb" alt="">
@@ -119,7 +734,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p6" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                       
                         <img src="images/c16.png" class="product1-thumb" alt="">
@@ -131,7 +746,7 @@
                         <div class="buy" ><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p7" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         <img src="images/c17.png" class="product1-thumb" alt="">
                         <!-- <button class="card-btn">add to wishlist</button> -->
@@ -142,7 +757,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p8" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         <img src="images/c18.png" class="product1-thumb" alt="">
                         <!-- <button class="card-btn">add to wishlist</button> -->
@@ -153,7 +768,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p9" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         <img src="images/c19.png" class="product1-thumb" alt="">
                         <!-- <button class="card-btn">add to wishlist</button> -->
@@ -164,7 +779,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p10" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         <img src="images/c20.png" class="product1-thumb" alt="">
                         <!-- <button class="card-btn">add to wishlist</button> -->
@@ -189,7 +804,7 @@
   <button class="pre-btn1"><img src="images/a.png" alt=""></button>
   <button class="nxt-btn1"><img src="images/a.png" alt=""></button>
   <div class="product1-container">
-      <div id="p11" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
               
               <img src="images/c1.jpg" class="product1-thumb" alt="">
@@ -203,7 +818,7 @@
               <div class="buy" id="buoght"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p12" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
             
               <img src="images/c2.jpg" class="product1-thumb" alt="">
@@ -217,7 +832,7 @@
               <div class="buy"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p13" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
          
               <img src="images/c3.jpg" class="product1-thumb" alt="">
@@ -233,7 +848,7 @@
               <div class="buy"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p14" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
           
               <img src="images/c4.jpg" class="product1-thumb" alt="">
@@ -247,7 +862,7 @@
               <div class="buy" id="buoght"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p15" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
             
               <img src="images/c5.jpg" class="product1-thumb" alt="">
@@ -261,7 +876,7 @@
               <div class="buy"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p16" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
             
               <img src="images/c6.jpg" class="product1-thumb" alt="">
@@ -275,7 +890,7 @@
               <div class="buy" id="buoght"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p17" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
               <img src="images/c7.jpg" class="product1-thumb" alt="">
               <!-- <button class="card-btn">add to wishlist</button> -->
@@ -288,7 +903,7 @@
               <div class="buy"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p18" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
               <img src="images/c8.jpg" class="product1-thumb" alt="">
               <!-- <button class="card-btn">add to wishlist</button> -->
@@ -301,7 +916,7 @@
               <div class="buy"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p19" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
               <img src="images/c9.jpg" class="product1-thumb" alt="">
               <!-- <button class="card-btn">add to wishlist</button> -->
@@ -314,7 +929,7 @@
               <div class="buy"><div>QUICK BUY</div></div>
           </div>
       </div>
-      <div id="p20" class="product1-card">
+      <div class="product1-card">
           <div class="product1-image">
               <img src="images/c10.jpg" class="product1-thumb" alt="">
               <!-- <button class="card-btn">add to wishlist</button> -->
@@ -345,7 +960,7 @@
             <button class="pre-btn1"><img src="images/a.png" alt=""></button>
             <button class="nxt-btn1"><img src="images/a.png" alt=""></button>
             <div class="product1-container">
-                <div id="p21" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         
                         <img src="images/c21.png" class="product1-thumb" alt="">
@@ -357,7 +972,7 @@
                         <div class="buy" ><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p22" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                       
                         <img src="images/c22.png" class="product1-thumb" alt="">
@@ -369,7 +984,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p23" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                    
                         <img src="images/c23.png" class="product1-thumb" alt="">
@@ -383,7 +998,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p24" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                     
                         <img src="images/c24.png" class="product1-thumb" alt="">
@@ -395,7 +1010,7 @@
                         <div class="buy" ><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p25" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                       
                         <img src="images/c25.png" class="product1-thumb" alt="">
@@ -407,7 +1022,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p26" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                       
                         <img src="images/c26.png" class="product1-thumb" alt="">
@@ -419,7 +1034,7 @@
                         <div class="buy" ><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p27" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         <img src="images/c27.png" class="product1-thumb" alt="">
                         <!-- <button class="card-btn">add to wishlist</button> -->
@@ -430,7 +1045,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p28" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         <img src="images/c28.png" class="product1-thumb" alt="">
                         <!-- <button class="card-btn">add to wishlist</button> -->
@@ -441,7 +1056,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p29" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         <img src="images/c29.png" class="product1-thumb" alt="">
                         <!-- <button class="card-btn">add to wishlist</button> -->
@@ -452,7 +1067,7 @@
                         <div class="buy"><div>QUICK BUY</div></div>
                     </div>
                 </div>
-                <div id="p30" class="product1-card">
+                <div class="product1-card">
                     <div class="product1-image">
                         <img src="images/c30.png" class="product1-thumb" alt="">
                         <!-- <button class="card-btn">add to wishlist</button> -->
@@ -510,7 +1125,7 @@
     <button class="pre-btn1"><img src="images/a.png" alt=""></button>
     <button class="nxt-btn1"><img src="images/a.png" alt=""></button>
     <div class="product1-container">
-        <div id="p31" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
                 
                 <img src="images/c1.jpg" class="product1-thumb" alt="">
@@ -524,7 +1139,7 @@
                 <div class="buy" id="buoght"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p32" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
               
                 <img src="images/c2.jpg" class="product1-thumb" alt="">
@@ -538,7 +1153,7 @@
                 <div class="buy"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p33" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
            
                 <img src="images/c3.jpg" class="product1-thumb" alt="">
@@ -554,7 +1169,7 @@
                 <div class="buy"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p34" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
             
                 <img src="images/c4.jpg" class="product1-thumb" alt="">
@@ -568,7 +1183,7 @@
                 <div class="buy" id="buoght"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p35" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
               
                 <img src="images/c5.jpg" class="product1-thumb" alt="">
@@ -582,7 +1197,7 @@
                 <div class="buy"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p36" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
               
                 <img src="images/c6.jpg" class="product1-thumb" alt="">
@@ -596,7 +1211,7 @@
                 <div class="buy" id="buoght"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p37" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
                 <img src="images/c7.jpg" class="product1-thumb" alt="">
                 <!-- <button class="card-btn">add to wishlist</button> -->
@@ -609,7 +1224,7 @@
                 <div class="buy"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p38" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
                 <img src="images/c8.jpg" class="product1-thumb" alt="">
                 <!-- <button class="card-btn">add to wishlist</button> -->
@@ -622,7 +1237,7 @@
                 <div class="buy"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p39" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
                 <img src="images/c9.jpg" class="product1-thumb" alt="">
                 <!-- <button class="card-btn">add to wishlist</button> -->
@@ -635,7 +1250,7 @@
                 <div class="buy"><div>QUICK BUY</div></div>
             </div>
         </div>
-        <div id="p40" class="product1-card">
+        <div class="product1-card">
             <div class="product1-image">
                 <img src="images/c10.jpg" class="product1-thumb" alt="">
                 <!-- <button class="card-btn">add to wishlist</button> -->
@@ -1010,9 +1625,9 @@
 <script src="homepage.js"></script>
 <script type = "module">
   
-    let people = document.getElementById("importer-container")
-    import max from './home.js';
+    // let people = document.getElementById("importer-container")
+    // import max from './nav.js';
     
-    people.innerHTML = max(); 
+    // people.innerHTML = max(); 
     
 </script>
