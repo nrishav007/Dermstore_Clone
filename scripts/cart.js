@@ -18,7 +18,6 @@ const appand=(data)=>{
         title.textContent = ele.title ;
         let price = document.createElement('p')
         price.textContent = ele.price ;
-        points+=Math.floor(subtotal/50)*250;
         let del = document.createElement('button')
         del.textContent = "x"
         del.addEventListener("click",function(){
@@ -30,6 +29,7 @@ const appand=(data)=>{
         let total = document.createElement('h2')
         total.textContent = "$"+ele.price*ele.quantity;
         subtotal += ele.price*ele.quantity;
+        points+=Math.floor(subtotal/50)*250;
         let hr= document.createElement('hr')
         let add = document.createElement('button')
         add.textContent = "+";
@@ -48,6 +48,7 @@ const appand=(data)=>{
 
     })
     totalprice.textContent ="$"+subtotal; 
+    console.log(points)
     document.getElementById("point").innerHTML=`Rewards members earn ${points} points on this order`
 }
 appand(cart);

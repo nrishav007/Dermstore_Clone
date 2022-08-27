@@ -18,6 +18,8 @@ document.getElementById('pro-price').innerHTML = "$" + productData.price;
 let quant = 1;
 document.getElementById('q2').innerHTML = quant;
 document.getElementById('q3').addEventListener("click", () => {
+    let d=document.getElementById('q2').innerHTML;
+        console.log(d)
     quant++;
     document.getElementById('q2').innerHTML = quant;
 })
@@ -37,7 +39,7 @@ document.getElementById("shop").addEventListener("click", () => {
 });
 
 document.getElementById("addm2").addEventListener("click", () => {
-    let user = JSON.parse(localStorage.getItem("user")) || [];
+    let user = JSON.parse(localStorage.getItem("userloggedin")) || [];
     if (user.length == 0) {
         alert("Please login your account to move further")
         window.location.href = "login.html";
@@ -49,7 +51,7 @@ document.getElementById("addm2").addEventListener("click", () => {
             "image": productData.image,
             "title": productData.title,
             "price": productData.price,
-            "quantity": document.getElementById('q2').innerHTML.value
+            "quantity": document.getElementById('q2').innerHTML
         }
         carts.push(prod);
         localStorage.setItem("cart",JSON.stringify(carts));
