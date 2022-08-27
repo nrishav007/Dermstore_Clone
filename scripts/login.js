@@ -23,7 +23,7 @@ let b = false
                 alert("login successful")
                 b=true;
                 localStorage.setItem("userloggedin",JSON.stringify(data[i]));
-                window.location.href="index.html";
+                window.location.href="./index.html";
                 return;
             }
             else{
