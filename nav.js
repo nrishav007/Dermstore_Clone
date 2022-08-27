@@ -30,7 +30,7 @@ let max = () =>{
             <a href="#" style="color:black; text-decoration: none"><i class="fa fa-fw fa-user"></i> <div class="dropdown">
                 <button class="dropbtn">Account</button>
                 <div class="dropdown-content" style="width:300px ; height:auto ; line-height: 30px;justify-content: center;">
-                    <a href="#" id="showusername"></a>
+                    <a href="#" id="showusername" ></a>
                     <a href="#" style="width: 83%; height:20px ;text-align: center; align-items: center;background-color: black;" onclick="logoutfun()" id="loginlogout"><b style="color: aliceblue;">Login</b></a>
                     <a href="register.html"  style="width: 83%; height:20px ;text-align: center; align-items: center; background-color: rgb(236, 234, 234);border:solid black;margin-top: 5px;" id="register"><b style="color: black; ">Rigester</a>
                     <a href="#">My Favorite</a>
