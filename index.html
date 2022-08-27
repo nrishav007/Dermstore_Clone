@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dermstore</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-     <link rel="stylesheet" href="homepage.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+     <link rel="stylesheet" href="./css/homepage.css">
      <script src="https://kit.fontawesome.com/777c85ebe0.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body >
     <div id="importer-container"></div>
     <div id="one">
       <h4 id="onehead">The celebration's not over yet: Rewards member get a 0.30 oz.SkinMedica Lytera 2.0 Pigment Correcting Serum, a
@@ -917,102 +917,16 @@
 
 
 <!-- footer -->
-<hr>
-<div id="footer">
-    <div>
-        <h3>Sign up to our newsletters and receive the latest exclusive discounts and deals</h3>
-        <button>SIGN Me UP</button>
-    </div>
-    <div style="margin-right:400px ;">
-        <p>Connect with us</p>
-        <div id="socialmedialogo" style="display:flex; margin-right: 10px;">
-            <a href="#" class="fa fa-facebook" ></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-            <a href="#" class="fa fa-youtube"></a>
-        </div>
-    </div>
-</div>
-<div id="footerpart2">
-    <div>
-        <hr>
-        <p style="padding-bottom:20px;">Customer Service</p>
-        <a href="#">
-            <p>Help Center / FAQs</p>
-            <p>Returns</p>
-            <p>Shipping Information</p>
-            <p>Track my order</p>
-            <p><i class='fas fa-cookie-bite' style='font-size:20px;margin-right: 10px;'></i>Cookie Settings</p>
-        </a>
-    </div>
-    <div>
-        <hr>
-        <p style="padding-bottom:20px;">My Account</p>
-        <a href="#">
-            <p>Manage My Auto-Replenishments</p>
-            <p>My Rewards</p>
-            <p> My Favorites</p>
-            <p> Refer a Friend</p>
-            <p> Order History</p>
-        </a>
-    </div>
-    <div>
-        <hr>
-        <p  style="padding-bottom:20px;">Company</p>
-        <a href="#">
-            <p>About Us</p>
-            <p>Press</p>
-            <p>What is Klarna?</p>
-          
-        </a>
-    </div>
-    <div>
-        <hr>
-        <p  style="padding-bottom:20px;">Legal</p>
-        <a href="#">
-            <p>Privacy Policy</p>
-            <p>Terms & Conditions</p>
-            <p>Modern Slavery Statement</p>
-            <p>Product Recall</p>
-            <p>Accessibility</p>
-        </a>
-    </div>
-</div>
-<hr>
-<div id="payments">
-    <div>
-        <h1>THG</h1>
-        <p>2022 © The Hut.com Ltd.</p>
-    </div>
-    <div>
-        <h4>Pay securely with</h4>
-        <div id="payments-content">
-            <div>
-                <div><i class="fa fa-paypal" style="font-size:36px"></i></div>
-            </div>
-            <div> <i class="fa fa-cc-diners-club" style="font-size:36px"></i></div>
-            <div><i class="fa fa-cc-mastercard" style="font-size:48px;color:red"></i></div>
-            <div>  <i class="fa fa-cc-paypal" style="font-size:36px"></i></div>
-            <div> <i class="fa fa-cc-visa" style="font-size:36px"></i></div>
-            <div><i class="fa fa-cc-visa" style="font-size:48px;color:red"></i></div>
-            <div><i class="fa fa-paypal" style="font-size:36px"></i></div>
-            <div><i class="fa fa-credit-card" style="font-size:36px"></i></div>
-            <div><i class="fa fa-cc-visa" style="font-size:48px;color:red"></i></div>
-            
-           
-
-        </div>
-    </div>
-</div>
+<div id="fotr"></div>
 </body>
 </html>
-<script src="homepage.js"></script>
+
 <script type = "module">
   
     let people = document.getElementById("importer-container")
-    import max from './nav.js';
+    import {max,foot} from './scripts/nav.js';
     
     people.innerHTML = max(); 
-    
+    document.getElementById("fotr").innerHTML=foot();
 </script>
+<script src="./scripts/homepage.js"></script>

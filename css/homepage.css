@@ -471,6 +471,7 @@ padding:3px;
 background-color: black;
 color: white;
 margin-top: 10px;
+cursor: pointer;
 }
 
 .buy div{
@@ -967,12 +968,3 @@ margin-top: 30px;
   grid-column: span 2;
   margin-bottom: 10px;
 }
-#showusername{
-  display:none;
-  
-  }
-  
-  
-  #register{
-    display:block;
-  }

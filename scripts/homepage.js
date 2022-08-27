@@ -570,13 +570,13 @@ document.querySelector('#p40').addEventListener('click',() => {
 
 let userloggedin = JSON.parse(localStorage.getItem("userloggedin"))||{};
 if(Object.keys(userloggedin).length!=0){
-usernameshow();
 
+    
 }
 function usernameshow(){
     let username = document.querySelector("#showusername");
     let loginlogout= document.getElementById("loginlogout");
-    
+    console.log(username.attributes)
     let register = document.getElementById("register");
     if(username.style.display=="none"||username.style.display==""){
         username.style.display="block"

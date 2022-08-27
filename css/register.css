@@ -10,7 +10,9 @@
     
 
 }
-
+#home{
+    cursor: pointer;
+}
 #container{
     width:45%;
     height: 1600px;
