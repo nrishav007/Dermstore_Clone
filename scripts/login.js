@@ -54,4 +54,6 @@ function show(e){
         passwordEle.setAttribute("type","password")
     }
 }
-   
+document.getElementById("home").addEventListener("click",()=>{
+    window.location.href="index.html";
+});

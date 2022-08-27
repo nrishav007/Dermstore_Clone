@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-around;
 }
-#btn2{
+#btn2,#btn4{
     background-color: rgb(86, 83, 83);
     color: azure;
     margin-top: 20px;
