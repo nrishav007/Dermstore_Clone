@@ -570,7 +570,7 @@ document.querySelector('#p40').addEventListener('click',() => {
 
 let userloggedin = JSON.parse(localStorage.getItem("userloggedin"))||{};
 if(Object.keys(userloggedin).length!=0){
-
+    setTimeout(function() { usernameshow(); }, 500);
     
 }
 function usernameshow(){
