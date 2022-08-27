@@ -49,10 +49,11 @@ document.getElementById("addm2").addEventListener("click", () => {
             "image": productData.image,
             "title": productData.title,
             "price": productData.price,
-            "quantity": document.getElementById('q2').value
+            "quantity": document.getElementById('q2').innerHTML.value
         }
         carts.push(prod);
         localStorage.setItem("cart",JSON.stringify(carts));
+        window.location.href="cart.html";
     }
-    window.location.href="cart.html";
+    
 })
