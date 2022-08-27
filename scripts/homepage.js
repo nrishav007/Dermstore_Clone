@@ -568,3 +568,45 @@ document.querySelector('#p40').addEventListener('click',() => {
     window.location.href='product.html';
 })
 
+let userloggedin = JSON.parse(localStorage.getItem("userloggedin"))||{};
+if(Object.keys(userloggedin).length!=0){
+
+    
+}
+function usernameshow(){
+    let username = document.querySelector("#showusername");
+    let loginlogout= document.getElementById("loginlogout");
+    console.log(username.attributes)
+    let register = document.getElementById("register");
+    if(username.style.display=="none"||username.style.display==""){
+        username.style.display="block"
+    }
+    loginlogout.href="#"
+    loginlogout.innerHTML="<b style='color: aliceblue;' >Logout</b>"
+    register.style.display="none";
+    console.log(userloggedin)
+    username.innerHTML=userloggedin.name;
+    
+}
+
+
+function logoutfun(){
+    
+    if(document.getElementById("loginlogout").innerText=="Login"){
+        window.location.href="login.html"
+     }
+    let loginlogout= document.getElementById("loginlogout");
+    
+    let register = document.getElementById("register");
+    
+    register.style.display="block";
+    loginlogout.innerHTML="<b style='color: aliceblue;' >Login</b>"
+   
+   
+    document.querySelector("#showusername").style.display="none";
+    localStorage.removeItem("userloggedin")
+
+
+
+}
+

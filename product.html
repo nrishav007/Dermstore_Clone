@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="product.css">
+<link rel="stylesheet" href="product.css">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="product.css">
+    <title>Product</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <script src="https://kit.fontawesome.com/777c85ebe0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/product.css">
 </head>
+
 <body>
     <div id="importer-container"></div>
 
     <!-- display product -->
     <div id="head-title"></div>
     <div id="diff1">
-        
+
     </div>
 
     <div id="pro-div">
-        
-        
+
+
         <div id="imgPro-div">
             <img id="pro-pic"></img>
             <p>★ 4 installments of $70.84 with Klarna Learn more about klarna_slice Learn more > </p>
             <p>★ 4 installments of $70.84 with Afterpay Learn more about afterpay Learn more > </p>
             <p>★ 4 installments of $70.84 with Sezzle Learn more about sezzle Learn more > </p>
         </div>
-        
+
         <div id="dataPro">
-            <img id="tagm" src="https://static.thcdn.com/design-assets/images/logos/shared-brands/colour/augustinusbader.gif">
+            <img id="tagm"
+                src="https://static.thcdn.com/design-assets/images/logos/shared-brands/colour/augustinusbader.gif">
             <h1 id="pro-title"></h1>
             <h4 id="earn">★ Earn 1417 reward points when purchasing this product as a rewards member*</h4>
             <h2 id="pro-price"></h2>
@@ -44,7 +48,7 @@
                 </div>
                 <div id="addm2">ADD TO CART</div>
 
-            
+
             </div>
 
             <hr>
@@ -55,27 +59,29 @@
 
             <div id="shop">SHOP NOW</div>
 
-            
 
-            
+
+
         </div>
-        
+
 
     </div>
-    
 
-    
-    
+
+
+    <div id="fotr"></div>
 </body>
+
 </html>
 
-<script type = "module">
-  
+<script type="module">
+
     let people = document.getElementById("importer-container")
-    import max from './home.js';
-    
-    people.innerHTML = max(); 
-    
+    import { max, foot } from './scripts/nav.js';
+
+    people.innerHTML = max();
+    document.getElementById("fotr").innerHTML = foot();
+
 </script>
 
-<script src="product.js"></script>
+<script src="./scripts/product.js"></script>

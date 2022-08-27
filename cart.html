@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script src="https://kit.fontawesome.com/777c85ebe0.js" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./cart.css">
-    <title>Cart</title>
+  <script src="https://kit.fontawesome.com/777c85ebe0.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="./css/cart.css">
+  <link rel="stylesheet" href="./css/homepage.css">
+  <script src="https://kit.fontawesome.com/777c85ebe0.js" crossorigin="anonymous"></script>
+  <title>Cart</title>
 </head>
+
 <body>
-    <div id="yourcart">
-        <h1>Your Cart</h1>
-        <button><i style="font-size:24px" class="fa"  style="font-size:36px;margin-right:20px ;">&#xf023;</i>CHECKOUT SECURELY NOW</button>
+  <div id="importer-container"></div>
+  <div id="yourcart">
+    <h1>Your Cart</h1>
+    <button id="btn2"><i style="font-size:24px" class="fa" style="font-size:36px;margin-right:20px ;">&#xf023;</i>CHECKOUT
+      SECURELY NOW</button>
+  </div>
+  <div id="yourcart1">
+    <div>
+      <h4 style="color:rgba(0, 26, 255, 0.751) ">New: Treat yourself to the Dr Dennis Gross Skincare Vitamin C Lactic
+        Firm and Bright Eye Treatment 0.5 fl oz (worth $68) </h4>
+      <a href="" style="margin-top:20px ; margin-left:5px;color: rgb(255, 115, 0);">Add To Cart</a>
     </div>
-    <div id="yourcart1">
-       <div>
-        <h4 style="color:rgba(0, 26, 255, 0.751) ">New: Treat yourself to the Dr Dennis Gross Skincare Vitamin C Lactic Firm and Bright Eye Treatment 0.5 fl oz (worth $68) </h4>
-        <a href="" style="margin-top:20px ; margin-left:5px;color: rgb(255, 115, 0);">Add To Cart</a>
-       </div>
-    </div>
- <hr>
-    <div id="calculate">
-    
-      <div>
-        <h3>Items</h3>
-      </div>
-      <div>
-        <h3>Price</h3>
-      </div>
-      <div>
-        <h3>Quantity</h3>
-      </div>
-      <div>
-        <h3>Subtotal</h3>
-      </div>
-    </div>
-    <hr>
-<hr>
-<div id="showdata"></div>
+  </div>
+  <hr>
+  <div id="calculate">
 
-<hr>
-<div id="totalamount">
-<p style="text-align:center;margin-right:250px;">Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $175 or more on the brand.
-</p>
-<div>
-  <h3 style="margin-left:150px"><i style="font-size:24px ;margin-right:20px;" class="fa">&#xf006;</i>Rewards members earn 5422 points on this order</h3>
-  <h3 style="margin-left:300px;">Cart Subtotal:<span id="totalprice" style="margin-left:330px;">0</span>  </h3>
-</div>
-</div>
+    <div>
+      <h3>Items</h3>
+    </div>
+    <div>
+      <h3>Price</h3>
+    </div>
+    <div>
+      <h3>Quantity</h3>
+    </div>
+    <div>
+      <h3>Subtotal</h3>
+    </div>
+  </div>
+  <hr>
+  <hr>
+  <div id="showdata"></div>
 
-<hr>
-      <div id="total">
-       
-        <button id="btn1"><i style="font-size:24px"  style="font-size:36px;margin-right:20px ;"></i>CONTINUE SHOPPING</button>
-        <button id="btn2"><i style="font-size:24px" class="fa"  style="font-size:36px;margin-right:20px ;">&#xf023;</i>CHECKOUT SECURELY NOW</button>
-      </div>
-      <hr>
+  <hr>
+  <div id="totalamount">
+    <p style="text-align:center;margin-right:250px;">Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you
+      spend $175 or more on the brand.
+    </p>
+    <div>
+      <h3 id="point" style="margin-left:150px"><i style="font-size:24px ;margin-right:20px;" class="fa">&#xf006;</i>Rewards members
+        earn 5422 points on this order</h3>
+      <h3 style="margin-left:300px;">Cart Subtotal:<span id="totalprice" style="margin-left:330px;">0</span> </h3>
+    </div>
+  </div>
+
+  <hr>
+  <div id="total">
+
+    <button id="btn1"><i style="font-size:24px" style="font-size:36px;margin-right:20px ;"></i>CONTINUE
+      SHOPPING</button>
+    <button id="btn4"><i style="font-size:24px" class="fa"
+        style="font-size:36px;margin-right:20px ;">&#xf023;</i>CHECKOUT SECURELY NOW</button>
+  </div>
+  </hr>
+  <div id="fotr"></div>
 </body>
+
 </html>
-<script src="cart.js"> </script>
+<script src="./scripts/cart.js"> </script>
+<script type="module">
+
+  let people = document.getElementById("importer-container")
+  import { max, foot } from './scripts/nav.js';
+
+  people.innerHTML = max();
+  document.getElementById("fotr").innerHTML = foot();
+</script>
