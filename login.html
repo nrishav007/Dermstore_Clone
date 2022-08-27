@@ -4,6 +4,25 @@
         <meta charset="utf-8" />
         <title>Login</title>
         <link rel="stylesheet" href="./register.css" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
+        <style>
+            #tog{
+                border:0px solid black;
+                height: 60px;
+                width:94%;
+                display: flex;
+                justify-content:space-evenly;
+                
+            }
+            input{
+                outline: none;
+                margin-top:5px;
+                
+            }
+            input:focus{
+            border:1px solid black;
+            }
+        </style>
     </head>
     <body>
         <div>
@@ -16,12 +35,20 @@
 
                         <p id="about1">Existing Customers</p>
                         <label for="email"><span>*</span>Email Address</label><br>
-                        <input style="width:92%" type="text" id="email"><br>
+                        <input style="width:92%" type="email" id="email"><br>
                         <label for="password"><span>*</span>Password</label><br>
-                        <div id="pass">
+
+                        <div id="tog">
+                            <input style="width:400px;" type="password" name="" id="password">
+                            <button style="height:45px;margin-top:5px" onclick="show(event)" id="toggle">SHOW</button>
+                        </div>
+
+                        <!-- <input type="password" name="password" autocomplete="current-password" required="" id="password">
+                        <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i> -->
+                        <!-- <div id="pass">
                         <input  type="password" id="password" style="height: 18px; border-color:white;margin-top:10px;">
                         <button id="btn">Show</button>
-                        </div>
+                        </div> -->
                         
                         <p>Forgotton your password?</p>
                         <button id="button1" onclick="sub(event)">LOGIN TO YOUR ACCOUNT</button>

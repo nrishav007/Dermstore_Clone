@@ -967,3 +967,12 @@ margin-top: 30px;
   grid-column: span 2;
   margin-bottom: 10px;
 }
+#showusername{
+  display:none;
+  
+  }
+  
+  
+  #register{
+    display:block;
+  }

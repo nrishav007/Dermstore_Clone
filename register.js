@@ -64,6 +64,12 @@ function verifypass(e){
             
             
                 if(n.length==10){  
+                    for(let i=0; i<arr.length; i++){
+                        if(arr[i].email==firstemail){
+                            alert("user already exist")
+                            return;
+                        }
+                      }
                     add(); 
                    
                     return true;
