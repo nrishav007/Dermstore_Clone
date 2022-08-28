@@ -81,6 +81,15 @@
 
     people.innerHTML = max();
     document.getElementById("fotr").innerHTML = foot();
+    window.onscroll = function() {navscroll()};
+
+function navscroll() {
+  if (document.documentElement.scrollTop > 190) {
+    document.getElementById("navbar2").style.position="fixed";
+  } else {
+    document.getElementById("navbar2").style.position="static";
+  }
+}
 
 </script>
 
