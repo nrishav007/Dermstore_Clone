@@ -18,6 +18,9 @@ body {
  border:1px solid  black;
  width: 100%;
  height:auto; 
+  top: 0px;
+  background-color: white !important;
+  z-index: 10;
 }
 #navbar2>div:nth-child(1){
   display: flex;
